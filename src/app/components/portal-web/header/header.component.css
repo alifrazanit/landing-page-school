@@ -1,0 +1,28 @@
+mat-toolbar.tiny-information-section {
+  font-size: 15px;
+  font-weight: 400;
+  height: 3em;
+  background-color: #0b2239;
+  color: white;
+}
+mat-toolbar.tiny-information-section .section-email {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 1rem;
+}
+mat-toolbar.tiny-information-section .section-phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+mat-toolbar.tiny-information-section .spacer {
+  flex: 1 1 auto;
+}
+mat-toolbar.tiny-information-section .flag{
+    width: 2rem;
+    height: auto;
+}
+mat-toolbar.tiny-information-section  .british-flag{
+    margin-left: 10px;
+}
