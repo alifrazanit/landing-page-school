@@ -19,10 +19,26 @@ mat-toolbar.tiny-information-section .section-phone {
 mat-toolbar.tiny-information-section .spacer {
   flex: 1 1 auto;
 }
-mat-toolbar.tiny-information-section .flag{
+mat-toolbar.tiny-information-section .information-flag .flag{
     width: 2rem;
     height: auto;
 }
-mat-toolbar.tiny-information-section  .british-flag{
+mat-toolbar.tiny-information-section .information-flag .british-flag{
     margin-left: 10px;
+}
+mat-toolbar.tiny-information-section .information-flag{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  mat-toolbar.tiny-information-section{
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+  mat-toolbar.tiny-information-section .section-email {
+    margin-right: 0;
+  }
 }
