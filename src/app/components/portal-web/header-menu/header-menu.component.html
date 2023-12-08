@@ -1,0 +1,30 @@
+<mat-toolbar class="header-menu-section">
+    <img src="assets/images/logo.avif" alt="logo" class="logo" />
+    <span class="spacer"></span>
+    <div class="menu-collapse">
+        <mat-list role="list" class="list-menu">
+            <mat-list-item><span>Beranda</span></mat-list-item>
+            <mat-list-item role="listitem" [matMenuTriggerFor]="aboutMenu">
+                <span>
+                    Tentang
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span>
+                <mat-menu #aboutMenu="matMenu">
+                    <button mat-menu-item>Vertebrates</button>
+                    <button mat-menu-item>Invertebrates</button>
+                </mat-menu>
+            </mat-list-item>
+            <mat-list-item role="listitem" [matMenuTriggerFor]="achievment">
+                <span>
+                    Prestasi
+                    <i class="fa-solid fa-chevron-down"></i>
+                </span></mat-list-item>
+            <mat-menu #achievment="matMenu">
+                <button mat-menu-item>tes</button>
+                <button mat-menu-item>tes2</button>
+            </mat-menu>
+            <mat-list-item role="listitem"><span>Siswa & Alumni</span></mat-list-item>
+            <mat-list-item role="listitem"><span>Login</span></mat-list-item>
+        </mat-list>
+    </div>
+</mat-toolbar>
