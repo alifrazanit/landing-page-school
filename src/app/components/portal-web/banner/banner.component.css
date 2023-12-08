@@ -1,0 +1,28 @@
+swiper-container.banner-swiper {
+  width: 100%;
+  height: 70svh;
+}
+
+swiper-container.banner-swiper swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-container.banner-swiper swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+swiper-container.banner-swiper > .swiper{
+  background-color: red !important;
+}
+swiper-container.banner-swiper{
+  --swiper-navigation-size: 20px;
+  --swiper-navigation-color: black;
+  --swiper-theme-color: #009D4E;
+}
