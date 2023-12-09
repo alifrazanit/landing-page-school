@@ -1,9 +1,8 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
-import { MatMenuTrigger } from '@angular/material/menu';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-header-menu',
   standalone: true,
@@ -16,4 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
   templateUrl: './header-menu.component.html',
   styleUrl: './header-menu.component.css'
 })
-export class HeaderMenuComponent { }
+export class HeaderMenuComponent { 
+  @Input() isScrolled: boolean = false;
+  
+}
