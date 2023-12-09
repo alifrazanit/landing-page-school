@@ -1,13 +1,50 @@
 <div class="news-section">
   <div class="container">
     <div class="row">
-        <div class="col">
+      <div class="col">
+        <div class="controller-container">
+          <div class="header-container">
             <h1>Berita Sekolah</h1>
-            <h3>Berikut adalah berita seputar SMA Rimba Madya</h3>
+            <h3>Berikut adalah berita seputar SMA Rimba Madya Bogor</h3>
+          </div>
+          <div class="controller-section">
+            <button mat-button color="primary" class="btn-controller btn-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button mat-button class="btn-controller btn-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
         </div>
-        <div class="col">
-            
-        </div>
+      </div>
+      <div class="col">
+        <swiper-container class="news-swiper">
+          <swiper-slide>
+           <div class="news-container">
+            <img src="assets/images/berita-1.jpg" alt="image-news" class="news-image" />
+            <div class="news-description">
+
+            </div>
+           </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="news-container">
+              <img src="assets/images/berita-2.jpg" alt="image-news" class="news-image" />
+              <div class="news-description">
+  
+              </div>
+             </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="news-container">
+              <img src="assets/images/berita-3.jpg" alt="image-news" class="news-image" />
+              <div class="news-description">
+  
+              </div>
+             </div>
+          </swiper-slide>
+        </swiper-container>
+      </div>
     </div>
   </div>
 </div>

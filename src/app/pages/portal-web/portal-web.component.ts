@@ -19,8 +19,11 @@ import { NewsComponent } from '@components/portal-web/news/news.component';
   styleUrl: './portal-web.component.css'
 })
 export class PortalWebComponent implements OnInit {
-  isScrolled: boolean = false;
+  BannerIsScrolled: boolean = false;
+  AboutIsScrolled:  boolean = false;
+
   targetBanner: number = 0;
+  targetAbout: number = 0;
 
   constructor(
     private el: ElementRef
@@ -28,10 +31,12 @@ export class PortalWebComponent implements OnInit {
 
   ngOnInit(): void {
     this.targetBanner = this.el.nativeElement.querySelector('#bannerId').offsetTop;
+    this.targetAbout = this.el.nativeElement.querySelector('#aboutId').offsetTop;
   }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    this.isScrolled = window.scrollY > this.targetBanner + 20;
+    this.BannerIsScrolled = window.scrollY > this.targetBanner;
+    this.AboutIsScrolled = window.scrollY > (this.targetAbout - 250);
   }
 }

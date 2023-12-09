@@ -66,10 +66,13 @@ mat-toolbar.header-menu-section .menu-collapse .list-menu mat-list-item {
 
 mat-toolbar.header-menu-section .menu-btn {
   display: none;
+  color: white;
   border: none !important;
   background: transparent;
 }
-
+mat-toolbar.header-menu-section.sticky-nav  .menu-btn{
+  color: black;
+}
 mat-toolbar.header-menu-section.sticky-nav {
   background-color: white;
   position: fixed;
