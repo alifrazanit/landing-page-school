@@ -107,7 +107,7 @@
     width: 15rem;
   }
 }
-@media (max-width: 599px) {
+@media (max-width: 600px) {
   .about-section .container .header-master {
     display: none;
   }
