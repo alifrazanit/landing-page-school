@@ -4,6 +4,7 @@ import { HeaderMenuComponent  } from '@components/portal-web/header-menu/header-
 import { BannerComponent } from '@components/portal-web/banner/banner.component';
 import { AboutUsComponent } from '@components/portal-web/about-us/about-us.component';
 import { NewsComponent } from '@components/portal-web/news/news.component';
+import { AchievementComponent } from '@components/portal-web/achievement/achievement.component';
 
 
 @Component({
@@ -14,7 +15,8 @@ import { NewsComponent } from '@components/portal-web/news/news.component';
     HeaderMenuComponent,
     BannerComponent,
     AboutUsComponent,
-    NewsComponent],
+    NewsComponent,
+    AchievementComponent],
   templateUrl: './portal-web.component.html',
   styleUrl: './portal-web.component.css'
 })
