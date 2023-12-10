@@ -8,17 +8,25 @@
             <h3>Berikut adalah berita seputar SMA Rimba Madya Bogor</h3>
           </div>
           <div class="controller-section">
-            <button mat-button color="primary" class="btn-controller btn-prev">
+            <button (click)="onPrev()" mat-button color="primary" 
+            class="btn-controller btn-prev button-prev">
               <img src="assets/images/right-chevron.png" alt="image-news" />
             </button>
-            <button mat-button class="btn-controller btn-next">
+            <button (click)="onNext()" mat-button class="btn-controller btn-next button-next">
               <img src="assets/images/right-chevron.png" alt="image-news" />
             </button>
           </div>
         </div>
       </div>
       <div class="col">
-        <swiper-container class="news-swiper" pagination="true" pagination-clickable="true" space-between="15">
+        <swiper-container  
+        #newsSwiper 
+        class="news-swiper" 
+        pagination="true" 
+        pagination-clickable="true" 
+        space-between="15"
+        loop="true"
+        >
           <swiper-slide>
             <div class="news-container">
               <img src="assets/images/berita-1.jpg" alt="image-news" class="news-image" />
