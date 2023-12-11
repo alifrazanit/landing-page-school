@@ -5,9 +5,16 @@ mat-toolbar.header-menu-section {
   z-index: 2;
   animation: fadeIn 250ms ease-in;
 }
+mat-toolbar.header-menu-section.sticky-nav .logo-text{
+  color: black;
+}
 mat-toolbar.header-menu-section .logo {
   width: 4rem;
   height: auto;
+}
+mat-toolbar.header-menu-section .logo-text{
+  font-weight: bold;
+  color: white;
 }
 mat-toolbar.header-menu-section .spacer {
   flex: 1 1 auto;

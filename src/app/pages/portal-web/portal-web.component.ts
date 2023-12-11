@@ -7,6 +7,7 @@ import { NewsComponent } from '@components/portal-web/news/news.component';
 import { AchievementComponent } from '@components/portal-web/achievement/achievement.component';
 import { TestimonialComponent } from '@components/portal-web/testimonial/testimonial.component';
 import { FooterComponent } from '@components/portal-web/footer/footer.component';
+import { CreditsComponent } from '@components/portal-web/credits/credits.component';
 
 
 @Component({
@@ -20,7 +21,8 @@ import { FooterComponent } from '@components/portal-web/footer/footer.component'
     NewsComponent,
     AchievementComponent,
     TestimonialComponent,
-    FooterComponent],
+    FooterComponent,
+    CreditsComponent],
   templateUrl: './portal-web.component.html',
   styleUrl: './portal-web.component.css'
 })

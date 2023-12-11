@@ -1,25 +1,27 @@
 <div class="banner-section" id="bannerId">
-  <swiper-container class="banner-swiper" space-between="30" centered-slides="true" loop="true" autoplay-delay="2500"
-    effect="fade" autoplay-disable-on-interaction="false">
-    <swiper-slide>
-      <img src="assets/images/bg-1.jpg" alt="banner image" class="banner-image" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="assets/images/bg-2.jpg" alt="banner image" class="banner-image" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="assets/images/bg-3.jpg" alt="banner image" class="banner-image" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="assets/images/bg-4.jpg" alt="banner image" class="banner-image" />
-    </swiper-slide>
+  <swiper-container class="banner-swiper"  autoplay-delay="2500" autoplay-disable-on-interaction="false" effect="fade">
+    @for (banner of listBanner; track banner) {
+      <swiper-slide>
+        <img [src]="banner" alt="banner image" class="banner-image" />
+      </swiper-slide>
+    }
   </swiper-container>
   <div class="banner-overlay">
     <div class="banner-layer"></div>
     <div class="banner-description">
-      <h1>SMA Rimba Madya</h1>
-      <h2>MULIA DALAM BERAKHLAK, UNGGUL DALAM BERPRESTASI</h2>
-      <button mat-flat-button class="btn-pendaftaran">Pendaftaran PDB 2023/2024</button>
+      <h1>Your School Name</h1>
+      <h2>NOBLE IN MORALITY, EXCELLENT IN ACHIEVEMENTS</h2>
+      <button mat-flat-button class="btn-pendaftaran">Registration PDB 2023/2024</button>
     </div>
   </div>
 </div>
+
+<!--
+CREDITS
+Photo by <a href="https://unsplash.com/@sangga_selia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sangga Rima Roman Selia</a> on <a href="https://unsplash.com/photos/white-concrete-building-near-green-trees-during-daytime-bgQgAKagQB4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@lndtxphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ryan Jacobson</a> on <a href="https://unsplash.com/photos/black-bicycle-parked-in-front-of-building-cXUOQWdRV4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@max_thehuman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Max Böhme</a> on <a href="https://unsplash.com/photos/trees-near-arena-DRwfzyyKw1s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/photos/man-and-woman-sitting-on-chairs-zFSo6bnZJTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
+-->

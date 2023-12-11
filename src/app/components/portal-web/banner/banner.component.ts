@@ -9,8 +9,12 @@ import { MatButtonModule } from '@angular/material/button';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class BannerComponent implements OnInit {
+  listBanner = [
+    'assets/images/bg-1.jpg',
+    'assets/images/bg-2.jpg',
+    'assets/images/bg-3.jpg',
+    'assets/images/bg-4.jpg',
 
-  ngOnInit(): void {
-
-  }
+  ]
+  ngOnInit(): void { }
 }
