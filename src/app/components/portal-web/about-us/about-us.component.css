@@ -16,12 +16,11 @@
 }
 .about-section .container .row {
   display: flex;
+  padding-top: 1rem;
+    padding-bottom: 1rem;
   flex-flow: row;
   align-items: start;
   gap: 2rem;
-}
-.about-section .container .headmaster-speach {
-  /* animation: fadeIn 1.5s ease-in; */
 }
 .about-section .container .headmaster-speach .speach-container .speach-content {
   position: relative;

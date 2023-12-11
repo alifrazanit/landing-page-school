@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter} from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
@@ -15,7 +15,12 @@ import { MatIconModule } from '@angular/material/icon';
   templateUrl: './header-menu.component.html',
   styleUrl: './header-menu.component.css'
 })
-export class HeaderMenuComponent { 
+export class HeaderMenuComponent {
   @Input() isScrolled: boolean = false;
-  
+  @Output() goToDivElement = new EventEmitter<string>();
+
+
+  gotoDiv(section: string) {
+    this.goToDivElement.emit(section)
+  }
 }

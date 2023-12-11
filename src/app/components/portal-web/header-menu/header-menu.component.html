@@ -6,19 +6,12 @@
     </button>
     <div class="menu-collapse">
         <mat-list role="list" class="list-menu">
-            <mat-list-item><span>Beranda</span></mat-list-item>
-            <mat-list-item role="listitem">
-                <span>
-                    Tentang
-                </span>
-            </mat-list-item>
-            <mat-list-item role="listitem">
-                <span>
-                    Prestasi
-                </span>
-            </mat-list-item>
-            <mat-list-item role="listitem"><span>Siswa & Alumni</span></mat-list-item>
-            <mat-list-item role="listitem"><span>Login</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('beranda')"><span>Beranda</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('about')" role="listitem"><span>Tentang</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('news')" role="listitem"><span>Berita</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('achievement')" role="listitem"><span>Prestasi</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('students')" role="listitem"><span>Siswa & Alumni</span></mat-list-item>
+            <mat-list-item (click)="gotoDiv('login')"  role="listitem"><span>Login</span></mat-list-item>
         </mat-list>
     </div>
 </mat-toolbar>

@@ -8,6 +8,5 @@ import { Component, Input} from '@angular/core';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent {
-  @Input() isScrolled: boolean = false;
 
 }

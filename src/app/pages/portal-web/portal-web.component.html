@@ -1,6 +1,7 @@
 <app-header />
-<app-header-menu [isScrolled]="BannerIsScrolled"/>
-<app-banner />
-<app-about-us/>
+<app-header-menu (goToDivElement)="goTo($event)" [isScrolled]="BannerIsScrolled"/>
+<app-banner #banner />
+<app-about-us />
 <app-news />
 <app-achievement />
+<app-testimonial />
