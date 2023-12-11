@@ -12,12 +12,11 @@
   width: 18rem;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- 
 }
 .about-section .container .row {
   display: flex;
   padding-top: 1rem;
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
   flex-flow: row;
   align-items: start;
   gap: 2rem;
@@ -42,14 +41,14 @@
 .about-section .container .headmaster-speach .quote-container {
   display: flex;
 }
-.about-section .container .headmaster-speach .right-quote{
-    justify-content: end;
+.about-section .container .headmaster-speach .right-quote {
+  justify-content: end;
 }
-.about-section .container .headmaster-speach .left-quote .quote{
+.about-section .container .headmaster-speach .left-quote .quote {
   transform: scaleY(-1);
 }
-.about-section .container .headmaster-speach .right-quote .quote{
-    transform: scaleX(-1);
+.about-section .container .headmaster-speach .right-quote .quote {
+  transform: scaleX(-1);
 }
 
 @media (max-width: 1190px) {
@@ -113,7 +112,7 @@
   .about-section .container .headmaster-speach .quote {
     display: block;
   }
-  .about-section .container .row{
+  .about-section .container .row {
     gap: 0;
   }
 }
