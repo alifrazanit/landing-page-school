@@ -111,7 +111,7 @@ mat-toolbar.header-menu-section.sticky-nav
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
   mat-toolbar.header-menu-section .menu-collapse {
     display: none;
   }

@@ -20,50 +20,35 @@ export class TestimonialComponent {
       name: `Alif Razan Saputra`,
       role: 'Programmer',
       graduationDate: 2015,
-      testimonial: `SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten
-       SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten`
+      testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       image: 'assets/images/testimonial-2.jpg',
       name: `Alif Razan Saputra`,
       role: 'Programmer',
       graduationDate: 2015,
-      testimonial: `SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten
-       SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten`
+      testimonial: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
     },
     {
       image: 'assets/images/testimonial-3.jpg',
       name: `Alif Razan Saputra`,
       role: 'Programmer',
       graduationDate: 2015,
-      testimonial: `SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten
-       SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten`
+      testimonial: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
     },
     {
       image: 'assets/images/testimonial-4.jpg',
       name: `Alif Razan Saputra`,
       role: 'Programmer',
       graduationDate: 2015,
-      testimonial: `SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten
-       SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten`
+      testimonial: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
     },
     {
       image: 'assets/images/testimonial-5.jpg',
       name: `Alif Razan Saputra`,
       role: 'Programmer',
       graduationDate: 2015,
-      testimonial: `SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten
-       SMA Rimba Madya bagi saya adalah sekolah terbaik yang pernah ada, disana saya
-       belajar banyak dari guru-guru yang berkompeten`
+      testimonial: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
     },
   ]
 

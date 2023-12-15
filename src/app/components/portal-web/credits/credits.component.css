@@ -1,0 +1,24 @@
+.credits-section {
+  background-color: #f1f2f6;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.credits-section .container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.credits-section .container .row {
+  display: flex;
+  flex-flow: row;
+}
+
+.credits-section .container .row .col {
+  width: 100%;
+}
+
+.credits-section .container .row .col .credits{
+    display: flex;
+    flex-flow: row;
+}
