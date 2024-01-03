@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { MatGridListModule } from '@angular/material/grid-list';
+import { NgMaterialModule } from '@shared/module/ng-material.module';
 
 @Component({
   selector: 'app-achievement',
   standalone: true,
-  imports: [MatGridListModule],
+  imports: [NgMaterialModule],
   templateUrl: './achievement.component.html',
   styleUrl: './achievement.component.css'
 })

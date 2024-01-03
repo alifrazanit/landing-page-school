@@ -1,0 +1,12 @@
+.login-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #0b2239;
+}
+.login-section .container .row {
+  display: flex;
+}
+
+.login-section .container .row .col {
+  width: 100%;
+}

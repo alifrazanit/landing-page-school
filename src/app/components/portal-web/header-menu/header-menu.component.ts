@@ -1,16 +1,11 @@
-import { Component, Input, Output, EventEmitter} from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatMenuModule } from '@angular/material/menu';
-import { MatListModule } from '@angular/material/list';
-import { MatIconModule } from '@angular/material/icon';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { NgMaterialModule } from '@shared/module/ng-material.module';
+
 @Component({
   selector: 'app-header-menu',
   standalone: true,
   imports: [
-    MatToolbarModule,
-    MatMenuModule,
-    MatListModule,
-    MatIconModule
+    NgMaterialModule
   ],
   templateUrl: './header-menu.component.html',
   styleUrl: './header-menu.component.css'

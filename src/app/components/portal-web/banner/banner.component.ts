@@ -1,9 +1,11 @@
 import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
+import { NgMaterialModule } from '@shared/module/ng-material.module';
+
+
 @Component({
   selector: 'app-banner',
   standalone: true,
-  imports: [MatButtonModule],
+  imports: [NgMaterialModule],
   templateUrl: './banner.component.html',
   styleUrl: './banner.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
